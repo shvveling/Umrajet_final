@@ -1,3 +1,4 @@
+import os
 
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMINS = ["vip_arabiy"]
